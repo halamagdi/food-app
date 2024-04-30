@@ -6,20 +6,6 @@ const rowData = document.querySelector("#rowData"),
   categories = document.querySelector("#categories"),
   area = document.querySelector("#area");
 
-// contact inputs
-let emailInput = document.querySelector("#email"),
-  phoneInput = document.querySelector("#phone"),
-  ageInput = document.querySelector("#age"),
-  passInput = document.querySelector("#password"),
-  rePassInput = document.querySelector("#rePassword"),
-  submitBtn = document.querySelector("#submitBtn"),
-  nameErrorAlert = document.querySelector(".nameErrorAlert"),
-  emailErrorAlert = document.querySelector(".emailErrorAlert"),
-  phoneErrorAlert = document.querySelector(".phoneErrorAlert"),
-  passwordErrorAlert = document.querySelector(".passErrorAlert"),
-  rePasswordErrorAlert = document.querySelector(".rePassErrorAlert"),
-  ageErrorAlert = document.querySelector(".ageErrorAlert"),
-  nameInput = document.querySelector("#name");
 
 // screen loading
 
