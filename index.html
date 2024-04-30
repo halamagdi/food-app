@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Yummy</title>
+  </head>
+  <body>
+    <div id="loading" >
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- side navbar  -->
+    <div class="sidebar bg-black"> 
+      <div class="inner-sidebar">
+        <ul id="navList">
+          <li id="search">Search</li>
+          <li id="categories">Categories</li>
+          <li id="area">Area</li>
+          <li id="ingredient">Ingredients</li>
+          <li id="contactUs" onclick="contactUs()">Contact Us</li>
+        </ul>
+        <div class="inner-icons text-white ps-4 ">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-globe pb-2 "></i>
+        <p class="text-white mt-1 mb-5">Copyright Â© 2019 All Rights <br> Reserved.</p>
+
+        </div>
+      </div>
+
+      <div class="outter-bar bg-white">
+      <img src="logo.png"  alt="">
+      <i class="fa-solid fa-xmark fs-1 ps-2" id="toggleBtn"></i>
+      <div class="outter-icons d-flex flex-column ps-3 pb-4">
+        <i class="fa-solid fa-globe pb-2 "></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+        
+      </div>
+    </div>
+   <section id="searchContainer" class="container d-none">
+      <div class="search d-flex justify-content-center mt-3">
+        <input
+          id="nameSearch"
+          type="text"
+          placeholder="Search By Name"
+          class="form-control w-50 me-3 bg-black text-white"
+        />
+        <input
+          id="letterSearch"
+          type="text"
+          placeholder="Search By First Letter"
+          class="form-control w-50 bg-black text-white "
+          maxlength="1"
+        />
+    </div>
+   </section>
+    <section class="home">
+      <div class="container">
+        <div class="row gy-4 mt-5" id="rowData" >
+       
+      </div>
+    </section>
+    
+   <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
